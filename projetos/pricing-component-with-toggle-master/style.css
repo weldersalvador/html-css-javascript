@@ -44,7 +44,7 @@ h1{
     display: inline-block;
     width: 60px;
     height: 30px;
-    margin-top: -5px;
+    margin-top: -3px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -53,8 +53,8 @@ h1{
     cursor: pointer;
     top: 0;
     right: 0;
-    left: 0;
-    bottom: 0;
+    left: 3px;
+    bottom: 7px;
     background-color: #ccc;
     transition: 0.4s;
     border-radius: 34px;
@@ -63,8 +63,8 @@ h1{
 .slider:before{
     position: absolute;
     content: "";
-    height: 30px;
-    width: 30px;
+    height: 23px;
+    width: 23px;
     left: 0px;
     bottom: 0px;
     background-color: white;
@@ -114,6 +114,7 @@ main{
     letter-spacing: 2px;
     font-size: 11px;
     font-weight: lighter;
+    text-transform: uppercase;
 }
 .principal input:hover{
     color: white;
@@ -158,11 +159,12 @@ main{
     font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     font-weight: lighter;
+    text-transform: uppercase;
 }
-#second1{
+#basic{
     border-radius: 10px 0 0 10px;
 }
-#second2{
+#master{
     border-radius: 0 10px 10px 0;
 }
 p{
@@ -202,6 +204,9 @@ hr{
     }
     #top{
         left: 58%;
-        top: 30%;
+    }
+    #bottom{
+        left: 1%;
+        top: 130%;
     }
 }

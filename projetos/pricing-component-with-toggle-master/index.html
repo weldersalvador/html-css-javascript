@@ -10,21 +10,25 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <img src="images/bg-top.svg" alt="" id="top">
-  <img src="images/bg-bottom.svg" alt="" id="bottom">
-  <h1>Our Pricing</h1>
-  <div id="btn-switch">
-    <p>Annually</p>
-    <label class="switch">
-    <input type="checkbox" id="switch" onclick="ativado()">
-      <span class="slider"></span>
-    </label>
-    <p>Monthly</p>
-  </div>
+  <picture>
+    <img src="images/bg-top.svg" alt="" id="top">
+    <img src="images/bg-bottom.svg" alt="" id="bottom">
+  </picture>
+  <header>
+    <h1>Our Pricing</h1>
+    <div id="btn-switch">
+      <p>Annually</p>
+      <label class="switch">
+      <input type="checkbox" id="switch" onclick="ativado()">
+        <span class="slider"></span>
+      </label>
+      <p>Monthly</p>
+    </div>
+  </header>
   <!--Annually
   Monthly-->
   <main>
-    <div class="second" id="second1">
+    <div class="second" id="basic">
       <p>Basic</p>
       <h2 class="value" id="value1">&dollar;199.99</h2>
       <hr>
@@ -34,7 +38,7 @@
       <hr>
        <p>Send up to 3 GB</p>
       <hr>
-      <input type="button" value="LEARN MORE">
+      <input type="button" value="learn more">
     </div>
     <div class="principal">
       <p class="details">Professional</p>
@@ -46,9 +50,9 @@
       <hr>
        <p class="details">Send up to 10 GB</p>
       <hr>
-      <input type="button" value="LEARN MORE">
+      <input type="button" value="learn more">
     </div>
-    <div class="second" id="second2">
+    <div class="second" id="master">
       <p>Master</p>
       <h2 class="value" id="value3">&dollar;399.99</h2>
       <hr>
@@ -58,7 +62,7 @@
       <hr>
       <p>Send up to 20 GB</p>
       <hr>
-      <input type="button" value="LEARN MORE">
+      <input type="button" value="learn more">
     </div>
   </main>
   <script src="scripts.js"></script>
